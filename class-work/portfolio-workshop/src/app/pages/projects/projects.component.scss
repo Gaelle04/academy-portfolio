@@ -37,6 +37,15 @@
   width: auto;
   margin: auto 0;
 }
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.details-container {
+  max-width: 400px; // or more
+}
 
 /* PROJECTS SECTION */
 

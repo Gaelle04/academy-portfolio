@@ -1,3 +1,28 @@
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+
+  .section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+}
+
 .btn-container {
   display: flex;
   justify-content: center;
@@ -38,9 +63,4 @@
   &.btn-color-2:hover {
     border: rgb(255, 255, 255) 0.1rem solid;
   }
-}
-
-// Extra button-specific styles
-.project-btn {
-  margin-left: 0.5rem;
 }
